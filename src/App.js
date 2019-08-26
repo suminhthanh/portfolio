@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from "./components/Sidebar";
+import profileData from './profileData.json';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App  extends React.Component{
+
+
+  constructor(props, context) {
+    super(props, context);
+    this.state = {
+      landingData : profileData.landing,
+      experience : profileData.experience,
+      education : profileData.education,
+      skills : profileData.skills,
+      interests : profileData.interests,
+      awards : profileData.awards
+    }
+  }
+
+
+  render(){
+    return (
+        <div className="App">
+          <Sidebar sidebarData={this.state.landingData}></Sidebar>
+        </div>
+    );
+  }
 }
+
 
 export default App;
