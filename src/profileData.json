@@ -1,12 +1,13 @@
 {
   "landing": {
-    "firstName": "Anupam",
-    "lastName": "Dagar",
-    "phoneNumber": "+91-0123456789",
-    "bio": "I am an opensource contributor and have contributed to Zulip, Hasura, Fossasia, Publiclab and many other projects. My tech stack includes Python and Javascript. Python for server side and scripting and Javascript for the frontend. I use Django framework for the server side development and React for the frontend development. I have also worked with GraphQL. I am a GitHub Campus Expert at my insititute where I am responsible for building on campus community. I am the lead organiser of Hack In The North Hackathon and the cofounder of Pragma Conference held at IIIT Allahabad.",
-    "email": "dagaranupam@gmail.com",
-    "linkedin": "https://linkedin.com/in/anupamdagar",
-    "github": "https://github.com/Anupam-dagar"
+    "firstName": "Long",
+    "lastName": "Phan Hoang ",
+    "phoneNumber": "135 CU CHINH LAN STREET · DA NANG, VIET NAM +84-355077431",
+    "bio": "I am software engineering come from Da Nang. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition",
+    "email": "hoanglonglch@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/long-lch-b3bb61139/",
+    "github": "https://github.com/longlch",
+    "facebook": "https://www.facebook.com/long.lch"
   },
   "experience": [
     {

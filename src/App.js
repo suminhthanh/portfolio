@@ -28,7 +28,7 @@ class App  extends React.Component{
 
   render(){
     return (
-        <div className="App">
+        <div className="App text-left">
           <Sidebar sidebarData={this.state.landingData}></Sidebar>
           <div className="container-fluid p-0">
             <Landing landingData={this.state.landingData} />
@@ -41,7 +41,7 @@ class App  extends React.Component{
             <hr className="m-0" />
             <Interests interests={this.state.interests} />
             <hr className="m-0" />
-            <Awards awards={this.state.awards} />
+            {/*<Awards awards={this.state.awards} />*/}
           </div>
         </div>
     );
