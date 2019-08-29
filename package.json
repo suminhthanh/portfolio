@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://longlch.me/portfolio",
+  "homepage": "http://longlch.me",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
     "@fortawesome/free-brands-svg-icons": "^5.10.2",
@@ -21,10 +21,10 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
-  "engines" : {
+  "engines": {
     "npm": "6.9.0",
     "node": "10.16.0"
-},
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
