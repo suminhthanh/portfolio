@@ -32,46 +32,50 @@
       "toDate": "January 2019"
     }
   ],
-  "education": [{
-    "university": "Indian Institute of Information Technology Allahabad",
-    "degree": "Bachelor of Technology",
-    "gpa": "12.34",
-    "fromDate": "August 2016",
-    "toDate": "Present"
-  }
+  "education": [
+    {
+      "university": "Indian Institute of Information Technology Allahabad",
+      "degree": "Bachelor of Technology",
+      "gpa": "12.34",
+      "fromDate": "August 2016",
+      "toDate": "Present"
+    }
   ],
-  "skills": [{
-    "name": "HTML5"
-  },
+  "skills": [
     {
-      "name": "CSS3"
+      "iconName": "html5"
     },
     {
-      "name": "Javascript"
+      "iconName": "css3"
     },
     {
-      "name": "React"
+      "iconName": "java"
     },
     {
-      "name": "Nodejs"
+      "iconName": "js"
     },
     {
-      "name": "Python"
+      "iconName": "react"
+
     },
     {
-      "name": "Django"
+      "iconName": "node-js"
     },
     {
-      "name": "Ember"
+      "iconName": "angular"
+    },
+    {
+      "iconName": "github"
     }
   ],
   "interests": {
     "paragraphOne": "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.",
     "paragraphTwo": "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world."
   },
-  "awards": [{
-    "awardDetail": "Hack 36 3rd prize winner."
-  },
+  "awards": [
+    {
+      "awardDetail": "Hack 36 3rd prize winner."
+    },
     {
       "awardDetail": "Mentor OpenCode'19"
     },
